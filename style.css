@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, red, yellow);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+/* Flower container */
+.flower {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Petals - a circle with pink petals */
+.petals {
+  width: 80px;
+  height: 80px;
+  background-color: #ffb6c1; /* Light pink */
+  border-radius: 50%;
+  position: relative;
+}
+
+/* Center of the flower - yellow circle */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+/* Stalk of the flower */
+.stalk {
+  width: 10px;
+  height: 60px;
+  background-color: green;
+  margin-top: 10px;
+  border-radius: 2px;
+}
